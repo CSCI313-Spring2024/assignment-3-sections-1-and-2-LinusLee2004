@@ -1,3 +1,5 @@
+<div class="container">
+    <a [routerLink]="['/']">
 <main>
     <header class="brand-name">
         <img
@@ -7,7 +9,10 @@
         aria-hidden="true"
         >
     </header>
-    <section class="content">
-<app-home></app-home>
-    </section>
 </main>
+</a>
+<section class="content">
+    <!-- <app-home></app-home> -->
+     <router-outlet></router-outlet>
+        </section>
+</div>
